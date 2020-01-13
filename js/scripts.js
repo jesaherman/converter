@@ -10,6 +10,9 @@ var cupsToMl = function(num1){
 var ozToG = function(num1){
     return num1 * 28.35;
 }
+var tblsToMl = function(num1){
+    return num1 * 14.787;
+}
 
 
 //variables
@@ -22,6 +25,9 @@ alert(cupsToMl(num2));
 //Oz
 var num3 = parseFloat(prompt("Enter Ounces"));
 alert(ozToG(num3));
+var num4 = parseFloat(prompt("Enter tablespoons"));
+alert(`${tblsToMl(num4)} milliliters`);
+
 
 
 
